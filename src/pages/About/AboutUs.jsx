@@ -36,7 +36,7 @@ const AboutUs = () => {
                 comprehensive program designed to help you reach your fitness
                 goals.
               </p>
-              <div className="flex mt-9 mb-[rem] gap-[2px]">
+              <div className="flex mt-9 mb-[2rem] gap-[2px]">
                 <div className="flex flex-col items-center text-center py-10 px-14 pl-7">
                   <img
                     src={IconweightLigter}

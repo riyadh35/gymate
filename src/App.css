@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 76rem;
+  max-width: 74rem;
   margin: 0 auto;
 }
 
@@ -122,7 +122,7 @@ body {
 
 .girl-running {
   width: 100%;
-  height: 415px;
+  height: auto;
   position: absolute;
   right: 46%;
   top: 60%;
@@ -132,7 +132,7 @@ body {
 }
 
 .girl-bg {
-  width: 77%;
+  width: 67%;
   height: auto;
   position: absolute;
   top: 65.7%;
@@ -141,7 +141,7 @@ body {
 }
 
 .girl-bg-text {
-  width: 26%;
+  width: 21%;
   height: auto;
   top: 65.7%;
   right: 93%;
@@ -156,4 +156,242 @@ body {
   right: 29%;
   transform: translate(50%, -50%);
   position: absolute;
+}
+
+/* feature grid components  */
+
+/* after pseudo */
+.item-0-div::after,
+.item-1-div::after,
+.item-2-div::after,
+.item-3-div::after,
+.item-4-div::after,
+.item-5-div::after {
+  content: "";
+  height: 69px;
+  width: 140px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  left: -49px;
+  bottom: 50%;
+  border-radius: 0 50px 50px 0;
+  transform: rotate(30deg);
+  transition: all 0.4s;
+  z-index: 5;
+}
+
+.item-0-div:hover:after,
+.item-1-div:hover:after,
+.item-2-div:hover:after,
+.item-3-div:hover:after,
+.item-4-div:hover:after,
+.item-5-div:hover:after {
+  background-color: rgba(255, 255, 255);
+}
+
+/* before pseudo */
+
+.item-0-div::before,
+.item-1-div::before,
+.item-2-div::before,
+.item-3-div::before,
+.item-4-div::before,
+.item-5-div::before {
+  width: 50%;
+  position: absolute;
+  transition: all 0.4s;
+  z-index: 6;
+  display: block;
+  transform: scale(0.65);
+}
+
+.item-0-div::before {
+  content: url("../src/assets/features/gym-bike.png");
+  left: -25px;
+  bottom: 45%;
+}
+.item-1-div::before {
+  content: url("../src/assets/features/karate.png");
+  left: 5px;
+  bottom: 43%;
+}
+.item-2-div::before {
+  content: url("../src/assets/features/dumbbell.png");
+  left: 5px;
+  bottom: 43%;
+}
+.item-3-div::before {
+  content: url("../src/assets/features/yoga.png");
+  left: 5px;
+  bottom: 43%;
+}
+.item-4-div::before {
+  content: url("../src/assets/features/boxer.png");
+  left: 5px;
+  bottom: 43%;
+}
+.item-5-div::before {
+  content: url("../src/assets/features/workout.png");
+  left: -25px;
+  bottom: 43%;
+}
+
+.item-0-div:hover:before,
+.item-1-div:hover:before,
+.item-2-div:hover:before,
+.item-3-div:hover:before,
+.item-4-div:hover:before,
+.item-5-div:hover:before {
+  transform: scale(0.66);
+}
+
+.item-0-div:hover:before {
+  content: url("../src/assets/features/bike-red.png");
+}
+.item-1-div:hover:before {
+  content: url("../src/assets/features/karate-red.png");
+}
+.item-2-div:hover:before {
+  content: url("../src/assets/features/dumb-red.png");
+}
+.item-3-div:hover:before {
+  content: url("../src/assets/features/yoga-red.png");
+}
+.item-4-div:hover:before {
+  content: url("../src/assets/features/boxer-red.png");
+}
+.item-5-div:hover:before {
+  content: url("../src/assets/features/workout-red.png");
+}
+/* grid items */
+
+.item-0,
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+  filter: grayscale(100%);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 2px 2px 8px 160px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.item-0:hover,
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-5:hover {
+  filter: grayscale(0%);
+  transform: scale(1.3);
+  box-shadow: inset 2px 2pz 8px 160px rgba(0, 0, 0, 0);
+}
+
+.item-0-div {
+  height: 300px;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  overflow: hidden;
+}
+
+.item-1-div {
+  height: 300px;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-column-end: 4;
+  overflow: hidden;
+}
+.item-2-div {
+  height: 300px;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-column-end: 5;
+  overflow: hidden;
+}
+.item-3-div {
+  height: 300px;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+  overflow: hidden;
+}
+.item-4-div {
+  height: 300px;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 3;
+  overflow: hidden;
+}
+.item-5-div {
+  height: 300px;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 4;
+  grid-column-end: 5;
+  overflow: hidden;
+}
+
+.item-0 {
+  background-image: url("../src/assets/features/cycling.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.item-1 {
+  background-image: url("../src/assets/features/karate.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.item-2 {
+  background-image: url("../src/assets/features/power.jpg");
+  width: 100%;
+  height: 100%;
+}
+.item-3 {
+  background-image: url("../src/assets/features/meditation.jpg");
+  width: 100%;
+  height: 100%;
+}
+.item-4 {
+  background-image: url("../src/assets/features/mma.jpg");
+  width: 100%;
+  height: 100%;
+}
+.item-5 {
+  background-image: url("../src/assets/features/workout.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+/* featured boottom section in features section */
+
+.featured-bottom {
+  background-image: url(../src/assets/features/cta-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 21rem;
+}
+
+/* choose us section */
+
+.choose-us {
+  background-image: url("../../");
 }
