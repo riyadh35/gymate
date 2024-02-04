@@ -393,5 +393,81 @@ body {
 /* choose us section */
 
 .choose-us {
-  background-image: url("../../");
+  background-image: url("../src/assets/choose-us/choose-bg.jpg");
+  object-fit: cover;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.video::before {
+  content: "";
+  height: 461px;
+  width: 10px;
+  background-color: #ff0336 !important;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(174deg);
+  transform: translateY(-50%) rotate(174deg);
+  right: 10px;
+}
+
+.video::after {
+  content: "";
+  height: 261px;
+  width: 10px;
+  background-color: #ff0336 !important;
+  position: absolute;
+  bottom: 6%;
+  left: -30px;
+}
+
+/* choice cta / main button */
+.choice-cta {
+  margin-top: 4rem;
+  transition: all 0.4s;
+}
+.choice-cta::after {
+  border: 2px solid rgba(89, 89, 89, 0.5) !important;
+}
+
+.choice-cta:hover:after {
+  border: 2px solid #ff0336 !important;
+}
+
+.trainer-section {
+  background-image: url("../src/assets/trainers/dot-bg.png");
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.trainer-section::after {
+  content: url("../src/assets/trainers/bg-attachment.png") !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.desc-box::after {
+  content: "";
+  width: 45px;
+  height: 4px;
+  background-color: #ff0336;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: all 0.4s ease-in-out;
+}
+
+.desc-box:hover:after {
+  content: "";
+  width: 100%;
+  height: 4px;
 }
