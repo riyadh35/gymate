@@ -15,6 +15,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  max-width: 76rem;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .hero-section {
   background-image: url("../src/assets/hero-img/hero-img.jpg");
   width: 100%;
@@ -56,4 +65,95 @@ body {
   top: -0px;
   left: 0px;
   transition: all 0.4s.;
+}
+
+/* About Page Background Image  */
+
+.about-section {
+  background-image: url("../src/assets/who-we-are/background.jpg");
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-item-div {
+  transition: all 0.2s;
+}
+
+.card-item-div:hover {
+  background-image: url("../src/assets/who-we-are/info-card-bg.jpg");
+  pbackground-repeat: no-repeat;
+  width: full;
+  background-size: cover;
+  object-fit: cover;
+  color: #fff;
+}
+
+.about-cta {
+  padding: 5px;
+  transition: all 0.3s;
+}
+
+.about-cta::after {
+  content: "";
+  width: 200px;
+  height: 55px;
+  border: 1px solid rgba(63, 63, 63, 0.362);
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  transition: all 0.4s;
+}
+
+.about-cta:hover:after {
+  content: "";
+  width: 200px;
+  height: 55px;
+  border: 1px solid #ff0336;
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  transition: all 0.4s;
+}
+
+/* about girl side   */
+
+.girl-running {
+  width: 100%;
+  height: 415px;
+  position: absolute;
+  right: 46%;
+  top: 60%;
+  transform: translate(50%, -50%);
+  width: 100%;
+  z-index: 5;
+}
+
+.girl-bg {
+  width: 77%;
+  height: auto;
+  position: absolute;
+  top: 65.7%;
+  right: 33%;
+  transform: translate(50%, -50%);
+}
+
+.girl-bg-text {
+  width: 26%;
+  height: auto;
+  top: 65.7%;
+  right: 93%;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
+
+.girl-wind-icon {
+  width: 20%;
+  height: about;
+  top: 62.7%;
+  right: 29%;
+  transform: translate(50%, -50%);
+  position: absolute;
 }
