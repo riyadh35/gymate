@@ -6,6 +6,8 @@ import ChooseUs from "../../components/ChooseUs";
 import GymTrainers from "../GymTrainers/GymTrainers";
 import Testmonial from "../Testimonial/Testmonial";
 import Gallery from "../../components/Gallery";
+import BmiCalc from "../BMI/BmiCalc";
+import PricingChart from "../Pricing/PricingChart";
 
 const HomePage = () => {
   return (
@@ -17,6 +19,8 @@ const HomePage = () => {
       <GymTrainers />
       <Testmonial />
       <Gallery />
+      <BmiCalc />
+      <PricingChart />
     </div>
   );
 };

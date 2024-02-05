@@ -552,3 +552,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* bmi section  */
+
+.bmi-section {
+  background-image: url("../src/assets/bmi/background.jpg");
+  background-position: center right;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* pricing section  */
