@@ -4,6 +4,7 @@ import AboutUs from "../About/AboutUs";
 import Features from "../Features/Features";
 import ChooseUs from "../../components/ChooseUs";
 import GymTrainers from "../GymTrainers/GymTrainers";
+import Testmonial from "../Testimonial/Testmonial";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Features />
       <ChooseUs />
       <GymTrainers />
+      <Testmonial />
     </div>
   );
 };
