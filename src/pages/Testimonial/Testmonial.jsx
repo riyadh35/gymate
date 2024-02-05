@@ -49,38 +49,38 @@ const Testmonial = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap gap-2 justify-center mt-32 border-b border-solid border-[#64646438] pb-28 ">
-          <img
-            src={logo}
-            alt=""
-            className="scale-[.8] hover:invert"
-            style={{ transition: "all 0.3s ease 0s" }}
-          />
-          <img
-            src={logo1}
-            alt=""
-            className="scale-[.8] hover:invert"
-            style={{ transition: "all 0.3s ease 0s" }}
-          />
-          <img
-            src={logo2}
-            alt=""
-            className="scale-[.8] hover:invert"
-            style={{ transition: "all 0.3s ease 0s" }}
-          />
-          <img
-            src={logo3}
-            alt=""
-            className="scale-[.8] hover:invert"
-            style={{ transition: "all 0.3s ease 0s" }}
-          />
-          <img
-            src={logo4}
-            alt=""
-            className="scale-[.8] hover:invert"
-            style={{ transition: "all 0.3s ease 0s" }}
-          />
-        </div>
+      </div>
+      <div className="flex flex-wrap gap-2 justify-center mt-32 border-b border-solid border-[#64646438] pb-28 ">
+        <img
+          src={logo}
+          alt=""
+          className="scale-[.8] hover:invert"
+          style={{ transition: "all 0.3s ease 0s" }}
+        />
+        <img
+          src={logo1}
+          alt=""
+          className="scale-[.8] hover:invert"
+          style={{ transition: "all 0.3s ease 0s" }}
+        />
+        <img
+          src={logo2}
+          alt=""
+          className="scale-[.8] hover:invert"
+          style={{ transition: "all 0.3s ease 0s" }}
+        />
+        <img
+          src={logo3}
+          alt=""
+          className="scale-[.8] hover:invert"
+          style={{ transition: "all 0.3s ease 0s" }}
+        />
+        <img
+          src={logo4}
+          alt=""
+          className="scale-[.8] hover:invert"
+          style={{ transition: "all 0.3s ease 0s" }}
+        />
       </div>
     </section>
   );

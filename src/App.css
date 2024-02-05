@@ -474,5 +474,81 @@ body {
 
 /* testimonials section  */
 
-.testimonials-section {
+/* gallery home page section   */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 6px;
+  height: 100%;
+}
+
+#item-0 {
+  height: 410px;
+  width: 100%;
+  background-color: #de89dd;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 3;
+  background-image: url("../src/assets/gallery/img1.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#item-1 {
+  background-color: #f7d9ab;
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 2;
+  grid-column-end: 5;
+  background-image: url("../src/assets/gallery/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 0px -131px;
+}
+
+#item-2 {
+  background-color: #bc775e;
+  grid-row-start: 2;
+  grid-column-start: 3;
+
+  grid-row-end: 4;
+  grid-column-end: 5;
+  background-image: url("../src/assets/gallery/img5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#item-3 {
+  background-color: #a89ce7;
+  grid-column-start: 1;
+  grid-row-start: 3;
+
+  grid-column-end: 2;
+  grid-row-end: 3;
+
+  background-image: url("../src/assets/gallery/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#item-4 {
+  background-color: #dc9f7c;
+  grid-row-start: 3;
+  grid-column-start: 2;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+
+  background-image: url("../src/assets/gallery/img4.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

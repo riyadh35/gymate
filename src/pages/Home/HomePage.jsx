@@ -5,6 +5,7 @@ import Features from "../Features/Features";
 import ChooseUs from "../../components/ChooseUs";
 import GymTrainers from "../GymTrainers/GymTrainers";
 import Testmonial from "../Testimonial/Testmonial";
+import Gallery from "../../components/Gallery";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <ChooseUs />
       <GymTrainers />
       <Testmonial />
+      <Gallery />
     </div>
   );
 };
