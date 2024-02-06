@@ -1,11 +1,11 @@
 import App from "../App";
 import AboutUs from "../pages/About/AboutUs";
-import BlogPage from "../pages/Blog/BlogPage";
+import BlogPage from "../pages/Blogpage/BlogPage";
 import Classes from "../pages/Classes/Classes";
 import ContactPage from "../pages/Contact/ContactPage";
 import GalleryPage from "../pages/Gallery/GalleryPage";
 import HomePage from "../pages/Home/HomePage";
-import PicingPage from "../pages/Picing/PicingPage";
+import PicingPage from "../pages/PicingPage/PicingPage";
 import SchedulePages from "../pages/Schedule/SchedulePages";
 
 const Router = [

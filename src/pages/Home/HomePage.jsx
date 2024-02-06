@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "../../components/Hero";
 import AboutUs from "../About/AboutUs";
 import Features from "../Features/Features";
@@ -8,6 +7,8 @@ import Testmonial from "../Testimonial/Testmonial";
 import Gallery from "../../components/Gallery";
 import BmiCalc from "../BMI/BmiCalc";
 import PricingChart from "../Pricing/PricingChart";
+import BlogSection from "../Blog/BlogSection";
+import CallBanner from "../CallSection/CallBanner";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,8 @@ const HomePage = () => {
       <Gallery />
       <BmiCalc />
       <PricingChart />
+      <BlogSection />
+      <CallBanner />
     </div>
   );
 };
