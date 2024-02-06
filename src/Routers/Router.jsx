@@ -5,6 +5,8 @@ import Classes from "../pages/Classes/Classes";
 import ContactPage from "../pages/Contact/ContactPage";
 import GalleryPage from "../pages/Gallery/GalleryPage";
 import HomePage from "../pages/Home/HomePage";
+import SignIn from "../pages/Login/SignIn";
+import SignUp from "../pages/Login/SignUp";
 import PicingPage from "../pages/PicingPage/PicingPage";
 import SchedulePages from "../pages/Schedule/SchedulePages";
 
@@ -44,6 +46,14 @@ const Router = [
       {
         path: "contact",
         element: <ContactPage />,
+      },
+      {
+        path: "login",
+        element: <SignIn />,
+      },
+      {
+        path: "register",
+        element: <SignUp />,
       },
     ],
   },

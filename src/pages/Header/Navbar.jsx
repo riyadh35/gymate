@@ -54,8 +54,8 @@ const Navbar = () => {
         {/* sign up icon */}
         <FaRegUser
           onClick={goTop}
-          to="/signup"
-          title="signup_button"
+          to="/login"
+          title="signin_button"
           className="text-white text-[20px] cursor-pointer hover:text-[#ff0336] ease-in duration-200"
         />
         {/* spin Box */}

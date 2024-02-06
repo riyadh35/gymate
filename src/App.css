@@ -605,6 +605,28 @@ body {
   padding: 10px 8px;
 }
 
+/* login section  */
+
+.login-section {
+  background-image: url("../src/assets/who-we-are/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.login-banner {
+  background-image: url("../src/assets/login/banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 45vh;
+}
+
 /* media quories */
 
 @media (max-width: 1200px) {
