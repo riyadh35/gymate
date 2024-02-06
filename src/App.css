@@ -24,13 +24,18 @@ body {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
+
+.nav-btn-hover:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+}
 .hero-section {
   background-image: url("../src/assets/hero-img/hero-img.jpg");
   width: 100%;
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 
 .hero-text {
@@ -598,4 +603,12 @@ body {
 
 .cta-banner-btn {
   padding: 10px 8px;
+}
+
+/* media quories */
+
+@media (max-width: 1200px) {
+  .navlist-menu {
+    display: none;
+  }
 }

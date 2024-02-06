@@ -22,7 +22,7 @@ const Features = () => {
               we are offering best flexible classes
             </h2>
           </div>
-          <div className="grid grid-cols-4 grid-rows-2 gap-4 h-full mt-7 ">
+          <div className="grid grid-cols-4 grid-rows-2 gap-4 h-full mt-7 lps:flex lps:flex-col">
             <div className="item-0-div relative">
               <div className="item-0 ease-in duration-[0.4s] p-6"></div>
               <div className="absolute z-10 bottom-6 left-5">
@@ -80,10 +80,10 @@ const Features = () => {
           </div>
         </div>
       </section>
-      <div className="featured-bottom flex justify-center text-left items-center">
+      <div className="featured-bottom flex justify-center text-left items-center lps:bg-none lps:bg-[#ff0336]">
         <div className="container page-padding">
-          <div className="flex items-center justify-between">
-            <h2 className="text-white font-bold text-[48px] px-2 max-w-4xl leading[1.2] capitalize">
+          <div className="flex items-center justify-between lps:flex-col lps:gap-12 lps:text-center">
+            <h2 className="text-white font-bold text-[48px] px-2 max-w-4xl leading[1.2] capitalize lps:text-[30px] ml:text-[18px] ">
               We are always providing best fitness service for you
             </h2>
             <MainButton

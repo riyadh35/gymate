@@ -4,7 +4,7 @@ import MainButton from "../Shared/MainButton/MainButton";
 const PricingCards = ({ img, price }) => {
   return (
     <>
-      <div className="flex flex-col w-1/3 bg-white shadow-xl relative ">
+      <div className="flex flex-col w-1/3 bg-white shadow-xl relative lps:w-[30rem] mlsm:w-[100%]">
         <div
           style={{ transition: "all 0.3s" }}
           className="relative grayscale hover:grayscale-0"

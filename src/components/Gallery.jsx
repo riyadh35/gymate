@@ -2,7 +2,7 @@ import bgIcon from "../assets/gallery/bg-icon.png";
 import titlebg from "../assets/gallery/titlebg.svg";
 const Gallery = () => {
   return (
-    <section className="gallery-section relative bg-white">
+    <section className="gallery-section relative bg-white tablet:hidden">
       <img src={bgIcon} alt="" className="absolute top-[30px] right-0" />
       <div className="container page-padding py-[4rem]">
         <div className="relative flex flex-col items-center gap-3 text-center">

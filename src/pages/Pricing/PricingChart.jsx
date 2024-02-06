@@ -33,7 +33,7 @@ const PricingChart = () => {
             make a type specimen book.
           </p>
         </div>
-        <div className="flex gap-10 mt-32 relative z-[2] ">
+        <div className="flex gap-10 mt-32 relative z-[2] lps:flex-col lps:items-center ">
           <PricingCards img={img1} price="39" />
           <PricingCards img={img2} price="65" />
           <PricingCards img={img3} price="100" />

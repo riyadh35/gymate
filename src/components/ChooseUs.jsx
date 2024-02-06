@@ -11,35 +11,35 @@ const ChooseUs = () => {
   return (
     <>
       <section className="choose-us py-[10rem]">
-        <div className="container  flex flex-row gap-[3rem]">
-          <div className="video relative w-[50%] ">
+        <div className="container  flex flex-row gap-[3rem] lps:flex-col lps:items-center">
+          <div className="video relative w-[50%] lps:w-[85%] lps:flex lps:justify-center">
             <img src={mainImg} alt="" className="relative w-[94%] h-auto" />
             <img
               src={playImg}
               alt=""
-              className="absolute w-[2.4rem] top-[42%] left-[44%] z-10 cursor-pointer"
+              className="absolute w-[2.4rem] top-[42%] left-[44%] z-10 cursor-pointer ml:left-[47%] ml:top-[44%]"
             />
             <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[36.7%] left-[36.95%]"></span>
           </div>
-          <div className="w-[50%] relative ">
+          <div className="w-[50%] relative lps:flex lps:flex-col lps:items-center lps:text-center lps:w-[85%]">
             <p className="text-white relative z-10 text-base uppercase font-bold mb-10">
               why choose us
             </p>
             <img
               src={titlebg}
               alt=""
-              className="w-[17rem] absolute -top-[11px] -left-16"
+              className="w-[17rem] absolute -top-[11px] -left-16 lps:hidden"
             />
-            <h2 className="text-[36px] text-white font-bold leading-[1.2] max-w-3xl ">
+            <h2 className="text-[36px] text-white font-bold leading-[1.2] max-w-3xl lps:max-w-[80%]">
               we can give a shape of your body here!
             </h2>
-            <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl ">
+            <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl lps:max-w-[80%] ">
               At <b>Gymate</b>, we are dedicated to helping you achieve the body
               of your dreams. Our expert trainers and nutritionists will work
               with you to create a personalized fitness and nutrition plan that
               helps you reach your specific goals.
             </p>
-            <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[44rem] mt-14 ">
+            <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[44rem] mt-14 ml:flex ml:flex-col">
               <div className="flex items-center gap-6">
                 <img
                   src={trainingIcon}

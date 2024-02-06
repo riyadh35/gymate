@@ -12,7 +12,7 @@ import CallBanner from "../CallSection/CallBanner";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="text-center">
       <Hero />
       <AboutUs />
       <Features />

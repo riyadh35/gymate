@@ -10,7 +10,7 @@ const NavList = () => {
   };
   return (
     <>
-      <ul className="flex text-white gap-7 font-medium capitalize">
+      <ul className="flex text-white gap-7 font-medium capitalize xl">
         <li
           className="cursor-pointer hover:text-[#ff0336]"
           style={{ transition: "all 0.4s" }}

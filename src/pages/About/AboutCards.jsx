@@ -4,11 +4,11 @@ import nutritionsImg from "../../assets/who-we-are/nutritions.png";
 const AboutCards = () => {
   return (
     <>
-      <div className="about-cards flex gap-10 -mt-[8.5rem] flex-row items-center ">
+      <div className="about-cards flex lps:flex-col gap-10 -mt-[8.5rem] flex-row items-center ">
         <div
           className="flex flex-col cursor-pointer bg-white justify-center py-6 px-10 text-center
              items-center mt-12 rounded-tl-[35px] rounded-br-[35px]
-              shadow-2xl min-h-[340px] w-[400px] card-item-div "
+              shadow-2xl min-h-[340px] w-[400px] card-item-div lps:min-h-[260px]"
         >
           <img src={prograssionImg} alt="" className="w-[75px] mb-4" />
           <p className="text-[24px] font-bold uppercase mb-7">Progression</p>

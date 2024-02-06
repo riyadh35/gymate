@@ -17,13 +17,13 @@ const BlogSection = () => {
           <h3 className="text-black font-blod text-[2.15rem]">
             Our Recent News
           </h3>
-          <p className="text-[#646464] font-medium text-[15px] text-center ">
+          <p className="text-[#646464] font-medium text-[15px] text-center lp12:justify-center ">
             Gymat an unknown printer took a galley of type and scrambled <br />{" "}
             make a type specimen book.
           </p>
         </div>
         {/* blog cards */}
-        <div className="flex gap-6 w-full mt-[5rem] flex-wrap">
+        <div className="flex gap-6 w-full mt-[5rem] flex-wrap mlsm:w-[100%]">
           <BlogCards
             bgClass="box1Bg"
             date="02.02.2024"

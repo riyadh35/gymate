@@ -6,29 +6,29 @@ const Footer = () => {
   return (
     <section className="footer-section bg-white py-[5rem]">
       <div className="container page-padding">
-        <div className="flex  justify-between !text-left gap-[3rem]">
-          <div className="flex flex-col w-1/3 gap-8">
+        <div className="flex  justify-between !text-left gap-[3rem] mlsm:flex-col mlsm:items-center mlsm:text-center mlsm:gap-[3rem] ">
+          <div className="flex flex-col w-1/3 mlsm:w-full gap-8">
             <img src={footerLogo} alt="" className="w-[12rem]" />
             <p className="font-medium text-[15px] text-[#646464]">
               Take your health and body to the next level with our comprehensive
               program designed to help you reach your fitness goals.
             </p>
-            <div className="flex gap-7 text-[37px] text-[#646464] ">
+            <div className="flex gap-7 lps:gap-2 text-[37px] text-[#646464] ">
               <FaFacebookF
-                className="bg-[#efefef] p-[10px] rounded-full px-[4px] hover:bg-[#ff0336] hover:text-white "
+                className="bg-[#efefef] p-[10px] mlsm:py-[4px] mlsm:px-[1px] rounded-full px-[4px] hover:bg-[#ff0336] hover:text-white "
                 style={{ transition: "all 0.3s ease 0s" }}
               />
               <IoLogoTwitter
-                className="bg-[#efefef] p-[10px] rounded-full px-[4px] hover:bg-[#ff0336] hover:text-white "
+                className="bg-[#efefef] p-[10px] mlsm:p-[4px] rounded-full px-[4px] hover:bg-[#ff0336] hover:text-white "
                 style={{ transition: "all 0.3s ease 0s" }}
               />
 
               <FaPinterestP
-                className="bg-[#efefef] p-[10px] rounded-full px-[4px] hover:bg-[#ff0336] hover:text-white "
+                className="bg-[#efefef] p-[10px] rounded-full mlsm:p-[4px] px-[4px] hover:bg-[#ff0336] hover:text-white "
                 style={{ transition: "all 0.3s ease 0s" }}
               />
               <FaYoutube
-                className="bg-[#efefef] p-[10px] rounded-full px-[4px] hover:bg-[#ff0336] hover:text-white "
+                className="bg-[#efefef] p-[10px] rounded-full mlsm:p-[4px] px-[4px] hover:bg-[#ff0336] hover:text-white "
                 style={{ transition: "all 0.3s ease 0s" }}
               />
             </div>

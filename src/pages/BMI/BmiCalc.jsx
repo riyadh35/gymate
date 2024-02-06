@@ -29,18 +29,21 @@ const BmiCalc = () => {
   return (
     <section className="bmi-section py-[5rem] relative">
       <div className="container page-padding">
-        <span className="w-full h-full absolute bg-transparent top-0 left-0"></span>
-        <div className="text-white w-[33rem] relative">
+        <span className="w-full h-full absolute bg-transparent mlsm:bg-[#00000063] top-0 left-0"></span>
+        <div className="text-white w-[33rem] relative mlsm:w-[100%]">
           <h2 className="text-[40px] font-bold leading-[1.1] mb-8">
             Let's Calculate Your <span className="text-[#FF0336]">BMI</span>
           </h2>
-          <p className="text-base text-[#a1a1a1]">
+          <p className="text-base text-[#a1a1a1] mlsm:text-white">
             Easily determine your body mass index with our accurate calculation
             tool.
           </p>
 
           <div className="flex flex-col">
-            <form action="" className="flex w-full gap-6 h-[50px] mt-10">
+            <form
+              action=""
+              className="flex mlsm:flex-col mlsm:items-center w-full gap-6 h-[50px] mt-10"
+            >
               <input
                 onChange={(e) => setWeight(e.target.value)}
                 type="text"
@@ -55,7 +58,7 @@ const BmiCalc = () => {
               />
             </form>
             {/* outpur  */}
-            <p className="mt-10 gap-3 text-[16px] font-medium flex items-center w-full">
+            <p className="mt-10 gap-3 text-[16px] font-medium flex items-center mlsm:flex-col w-full">
               <span className="w-1/2">
                 Your BMI is: <span className="text-[#ff0336]">{bmi}</span>
               </span>

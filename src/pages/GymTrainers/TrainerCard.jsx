@@ -27,7 +27,7 @@ const TrainerCard = () => {
   return (
     <div>
       <div
-        className="flex justify-center gap-[3rem]"
+        className="flex justify-center gap-[3rem] lps:flex-wrap"
         style={{ margin: "0 auto" }}
       >
         {trainsers.map((train, id) => (
@@ -35,7 +35,7 @@ const TrainerCard = () => {
             onMouseEnter={hoverBox}
             onMouseLeave={hoverBox}
             key={id}
-            className="relative cursor-pointer w-[350px] flex flex-col select-one"
+            className="relative cursor-pointer w-[350px] flex flex-col select-one ml:w-full"
           >
             {/* trainer img */}
             <img

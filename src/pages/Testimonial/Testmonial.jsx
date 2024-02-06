@@ -18,7 +18,7 @@ const Testmonial = () => {
           </p>
           <img src={titleBg} alt="" className="absolute w-[15rem] -top-[6px]" />
         </div>
-        <div className="bg-white mt-[7rem] border-solid border-[9px] border-[#efefef] p-[30px] h-[407px]">
+        <div className="bg-white mt-[7rem] border-solid border-[9px] border-[#efefef] p-[30px] h-[407px] lps:mt-[3rem] mlsm:h-[437px] ml:h-[300px]">
           <div className="relative bg-black overflow-x-clip w-full h-[20.7rem] ">
             <img
               src={testimonialImg1}
