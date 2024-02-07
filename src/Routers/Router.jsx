@@ -1,5 +1,5 @@
 import App from "../App";
-import AboutUs from "../pages/About/AboutUs";
+import About from "../components/About";
 import BlogPage from "../pages/Blogpage/BlogPage";
 import Classes from "../pages/Classes/Classes";
 import ContactPage from "../pages/Contact/ContactPage";
@@ -21,7 +21,7 @@ const Router = [
       },
       {
         path: "about",
-        element: <AboutUs />,
+        element: <About />,
       },
       {
         path: "gallery",

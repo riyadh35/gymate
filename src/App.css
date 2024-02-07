@@ -617,7 +617,8 @@ body {
   height: 100%;
 }
 
-.login-banner {
+.login-banner,
+.about-banner {
   background-image: url("../src/assets/login/banner.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -625,6 +626,35 @@ body {
   background-size: cover;
   width: 100%;
   height: 45vh;
+}
+
+/* about us nav page  */
+
+.about-cta-page {
+  padding: 5px;
+  transition: all 0.3s;
+}
+
+.about-cta-page::after {
+  content: "";
+  width: 200px;
+  height: 55px;
+  border: 1px solid #ff03353b;
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  transition: all 0.4s;
+}
+
+.about-cta-page:hover:after {
+  content: "";
+  width: 200px;
+  height: 55px;
+  border: 1px solid #ff0336;
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  transition: all 0.4s;
 }
 
 /* media quories */

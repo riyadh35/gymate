@@ -52,12 +52,13 @@ const Navbar = () => {
       <div className="flex items-center gap-10">
         {/* icon toggleMenu / sidebar / spin + contact page */}
         {/* sign up icon */}
-        <FaRegUser
-          onClick={goTop}
-          to="/login"
-          title="signin_button"
-          className="text-white text-[20px] cursor-pointer hover:text-[#ff0336] ease-in duration-200"
-        />
+        <Link to="/login">
+          <FaRegUser
+            onClick={goTop}
+            title="signin_button"
+            className="text-white text-[20px] cursor-pointer hover:text-[#ff0336] ease-in duration-200"
+          />
+        </Link>
         {/* spin Box */}
         {/* <div className="border-[rgb(255,255,255,0.3)] border-solid border-2 p-2 rounded-md ">
           <Link
