@@ -5,7 +5,7 @@ const SignIn = () => {
   return (
     <section className="login-section">
       <div className="login-banner relative flex justify-center">
-        <h2 className="text-white text-[48px] font-bold absolute bottom-[25px]">
+        <h2 className="text-white text-[30px] font-bold absolute bottom-[25px]">
           Sign In
         </h2>
       </div>

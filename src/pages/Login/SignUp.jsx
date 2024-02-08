@@ -5,7 +5,7 @@ const SignUp = () => {
   return (
     <section className="login-section " id="#signup">
       <div className="login-banner relative flex justify-center">
-        <h2 className="text-white text-[48px] font-bold absolute bottom-[25px]">
+        <h2 className="text-white text-[30px] font-bold absolute bottom-[25px]">
           Sign Up
         </h2>
       </div>

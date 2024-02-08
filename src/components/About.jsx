@@ -13,7 +13,7 @@ const About = () => {
   return (
     <section className="about-top banner">
       <div className="about-banner relative flex justify-center mlsm:h-[29vh]">
-        <h3 className="absolute bottom-[25px] text-white font-bold text-[40px] mlsm:text-[23px]">
+        <h3 className="absolute bottom-[25px] text-white font-bold text-[30px] mlsm:text-[23px]">
           About Us
         </h3>
       </div>
