@@ -10,7 +10,14 @@ import HomePage from "../pages/Home/HomePage";
 import SignIn from "../pages/Login/SignIn";
 import SignUp from "../pages/Login/SignUp";
 import PicingPage from "../pages/PicingPage/PicingPage";
+import Friday from "../pages/Schedule/Friday";
+import Monday from "../pages/Schedule/Monday";
+import Saturday from "../pages/Schedule/Saturday";
 import SchedulePages from "../pages/Schedule/SchedulePages";
+import Sunday from "../pages/Schedule/Sunday";
+import Thursday from "../pages/Schedule/Thursday";
+import Tuesday from "../pages/Schedule/Tuesday";
+import Wednesday from "../pages/Schedule/Wednesday";
 
 const Router = [
   {
@@ -46,6 +53,36 @@ const Router = [
       {
         path: "schedule",
         element: <SchedulePages />,
+        children: [
+          {
+            index: true,
+            element: <Monday />,
+          },
+          {
+            path: "/schedule/tuesday",
+            element: <Tuesday />,
+          },
+          {
+            path: "/schedule/wednesday",
+            element: <Wednesday />,
+          },
+          {
+            path: "/schedule/thursday",
+            element: <Thursday />,
+          },
+          {
+            path: "/schedule/sunday",
+            element: <Sunday />,
+          },
+          {
+            path: "/schedule/friday",
+            element: <Friday />,
+          },
+          {
+            path: "/schedule/saturday",
+            element: <Saturday />,
+          },
+        ],
       },
       {
         path: "blog",
