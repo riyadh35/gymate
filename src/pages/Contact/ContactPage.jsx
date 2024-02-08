@@ -1,7 +1,15 @@
 import React from "react";
 
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return (
+    <section id="contact">
+      <div className="login-banner relative flex justify-center">
+        <h2 className="text-white text-[48px] lps:text-[22px] font-bold absolute bottom-[25px]">
+          Contact
+        </h2>
+      </div>
+    </section>
+  );
 };
 
 export default ContactPage;
